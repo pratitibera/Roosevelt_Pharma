@@ -35,8 +35,7 @@ $(document).ready(function () {
         autoplayHoverPause: true,
         dots: false,
         nav: true,
-        rtl: true,
-        navText: [$('.owl-navigation .owl-nav-next'), $('.owl-navigation .owl-nav-prev')],
+        navText: [$('.owl-navigation .owl-nav-prev'), $('.owl-navigation .owl-nav-next')],
         responsive: {
             0: {
                 items: 1
@@ -94,3 +93,19 @@ $(".navbar-nav > li").click(function () {
         menuOpen = false;
     }
 });
+
+function prevBlog(){
+    v = parseInt($("#blogSlider input[name='blogSlider']:checked").val()) - 1;
+    if(v < 1){
+      v = 5;
+    }
+    document.getElementById('s' + v).checked = true;
+  }
+
+  function nextBlog(){
+    v = parseInt($("#blogSlider input[name='blogSlider']:checked").val()) + 1;
+    if(v > 5){
+      v = 1;
+    }
+    document.getElementById('s' + v).checked = true;
+  }

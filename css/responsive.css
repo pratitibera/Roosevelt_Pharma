@@ -1,25 +1,31 @@
 @media only screen and (min-width: 768px) {
+	section{
+		padding: 50px 125px;
+	}
 	#home {
-		margin-top: 150px;
+		margin-top: 120px;
+		padding: 0;
 	}
-	#contact{
-		padding-top: 100px;
-	}
-	.carousel-inner, .carousel-item, .carousel-item img{
+	.carousel-inner,
+	.carousel-item,
+	.carousel-item img {
 		height: 35vh;
 	}
 	/* Products section */
 	#productSection .owl-nav {
 		text-align: right;
 	}
-
-	#blog,
-	#products,
-	#about {
-		padding: 100px 125px 50px 125px;
-	}
 	.contactSection {
-		padding: 60px;
+		padding: 90px 60px;
+	}
+	#products, #blog{
+		padding-top: 100px;
+	}
+	#contact{
+		padding: 85px 0px 0px 0px;
+	}
+	#contact .bg-dark{
+		padding: 50px 90px;
 	}
 }
 
@@ -79,21 +85,43 @@
 	.mow-60 {
 		width: 60%!important;
 	}
-	#home {
-		margin-top: 95px;
-	}
-	.carousel-inner, .carousel-item, .carousel-item img{
+	.carousel-inner,
+	.carousel-item,
+	.carousel-item img {
 		height: 25vh;
 	}
 	.contactSection {
 		padding: 20px;
 	}
-	#about{
-		padding: 30px 0px 30px 0px;
+	section{
+		padding: 20px 0px;
 	}
-	#blog,
-	#products,
-	#contact {
-		padding: 90px 0px 30px 0px;
+	#home {
+		margin-top: 95px;
+		padding: 0;
+	}
+	#blogSlider {
+	    height: 30vh;
+	}
+	.blogpage .blogcardimage {
+		height: 200px;
+	}
+	#about{
+		margin-top: 65px;
+	}
+	#products, #blog{
+		padding-top: 70px;
+	}
+	.contactContainer .xgroup, .contactContainer input {
+		width: 100%;
+	}
+	#contact{
+		padding: 0;
+	}
+	#contact .bg-dark{
+		padding: 25px 20px;
+	}
+	.mvh-100{
+		height: 100vh!important;
 	}
 }

@@ -41,19 +41,19 @@
                   <a class="nav-link" href="#"></a>
                </li>
                <li class="nav-item">
-                  <a class="nav-link" href="#home">HOME</a>
+                  <a class="nav-link" href="index.html">HOME</a>
                </li>
                <li class="nav-item">
-                  <a class="nav-link" href="#about">ABOUT</a>
+                  <a class="nav-link" href="about.html">ABOUT</a>
                </li>
                <li class="nav-item">
-                  <a class="nav-link" href="#products">OUR PRODUCTS</a>
+                  <a class="nav-link" href="products.html">OUR PRODUCTS</a>
                </li>
                <li class="nav-item">
-                  <a class="nav-link" href="#blog">BLOGS</a>
+                  <a class="nav-link" href="blog.html">BLOGS</a>
                </li>
                <li class="nav-item">
-                  <a class="nav-link" href="#contact">CONTACT</a>
+                  <a class="nav-link" href="contact.html">CONTACT</a>
                </li>
             </ul>
          </div>
@@ -82,7 +82,7 @@
             </a>
          </div>
       </section>
-      <section id="about" class="bg-grey">
+      <section class="bg-grey">
          <div class="container-fluid pt-5 pb-5">
             <div class="row m-0">
                <div class="col-sm-7" data-aos="fade-right" data-aos-delay="100">
@@ -95,7 +95,7 @@
             </div>
          </div>
       </section>
-      <section id="products">
+      <section>
          <h4 class="fo-40 fw-600 bco mb-3 text-center" data-aos="fade-down" data-aos-delay="100">Our Products</h4>
          <div class="container-fluid">
             <div class="owl-carousel" id="productSection">
@@ -128,11 +128,11 @@
             <div class="fo-14 txtco mt-3 fw-400 text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. m dolor sit amet, consectetur adipisicing. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. m dolor sit amet, consectetur adipisicing.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. m dolor sit amet, consectetur adipisicing.<br><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. m dolor sit amet, consectetur adipisicing.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. m dolor sit amet, consectetur adipisicing. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. m dolor sit amet, consectetur adipisicing.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. m dolor sit amet, consectetur adipisicing. <br><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. m dolor sit amet, consectetur adipisicing. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. m dolor sit amet, consectetur adipisicing.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. m dolor sit amet, consectetur adipisicing.</div>
          </div>
       </section>
-      <section id="blog" class="bg-grey">
+      <section class="bg-grey">
          <h4 class="fo-40 fw-600 bco mb-3 text-center" data-aos="fade-down" data-aos-delay="100">Featured blogs</h4>
          <div class="fo-14 txtco mt-3 fw-400 text-justify pl-3 pr-3 p-sm-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. m dolor sit amet, consectetur adipisicing. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. m dolor sit amet, consectetur adipisicing.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. m dolor sit amet, consectetur adipisicing.</div>
          <div class="container-fluid">
-            <div class="owl-carousel" id="blogsSection">
+            <!-- <div class="owl-carousel" id="blogsSection">
                <div class="p-3" data-aos="fade-up" data-aos-delay="200">
                   <div class="card p-0">
                      <a href="#">
@@ -197,10 +197,51 @@
             <div class="owl-navigation">
                <span class="owl-nav-prev mr-2"><i class="fas fa-long-arrow-alt-left"></i></span>
                <span class="owl-nav-next ml-2"><i class="fas fa-long-arrow-alt-right"></i></span>
+            </div> -->
+            <div class="container-fluid pr-0 pl-0 pl-lg-5 pr-lg-5 blogpage" id="blogSlider">
+               <input type="radio" name="blogSlider" id="s1" value="1">
+               <input type="radio" name="blogSlider" id="s2" value="2">
+               <input type="radio" name="blogSlider" id="s3" value="3" checked>
+               <input type="radio" name="blogSlider" id="s4" value="4">
+               <input type="radio" name="blogSlider" id="s5" value="5">
+               <label for="s1" id="slide1">
+                  <div class="blogcardimage">
+                     <img src="https://images.unsplash.com/photo-1576671081837-49000212a370?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8cGhhcm1hY3l8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" height="100%" width="100%">
+                  </div>
+               </label>
+               <label for="s2" id="slide2">
+                  <div class="blogcardimage">
+                     <img src="https://lifesum.com/media/marianne-small-2b01f4f4.jpg" height="100%" width="100%">
+                  </div>
+               </label>
+               <label for="s3" id="slide3">
+                  <div class="blogcardimage">
+                     <img src="https://lifesum.com/media/nike-small-4be9368a.jpg" height="100%" width="100%">
+                  </div>
+                  <!-- <div class="blogcardtext">
+                     <div class="fo-30 fw-600">Loreum ipsum</div>
+                     <div class="fo-13">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</div>
+                  </div> -->
+               </label>
+               <label for="s4" id="slide4">
+                  <div class="blogcardimage">
+                     <img src="https://lifesum.com/media/nathalie-small-446755bd.jpg" height="100%" width="100%">
+                  </div>
+               </label>
+               <label for="s5" id="slide5">
+                  <div class="blogcardimage">
+                     <img src="https://media.istockphoto.com/photos/pharmacy-drugstore-portrait-of-handsome-latin-man-choosing-to-buy-picture-id1311515424?b=1&k=20&m=1311515424&s=170667a&w=0&h=_qHfQpaZAADYQ1bP8A9dYwaDbRxd_ofqZqA3LtM0PsI=" height="100%" width="100%">
+                  </div>
+               </label>
+            </div>
+            <!---Handlers ---->
+            <div class="text-center mt-5">
+               <i class="fas fa-long-arrow-alt-left mr-1 bco fw-800 fo-30 cursorPointer" onclick="prevBlog()"></i>
+               <i class="fas fa-long-arrow-alt-right ml-1 bco fw-800 fo-30 cursorPointer" onclick="nextBlog()"></i>
             </div>
          </div>
       </section>
-      <section id="contact">
+      <section class="p-0">
          <div class="container-fluid p-0">
             <div class="row m-0">
                <div class="col-lg-4 contactSection" data-aos="fade-right" data-aos-delay="100">
@@ -247,7 +288,6 @@
             </div>
          </div>
       </section>
-   
       <footer>
          <div class="container-fluid p-0 bg-dark">
             <div class="row m-0">
