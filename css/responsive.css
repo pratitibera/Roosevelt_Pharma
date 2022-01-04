@@ -9,14 +9,14 @@
 	.carousel-inner,
 	.carousel-item,
 	.carousel-item img {
-		height: 35vh;
+		height: 60vh;
 	}
 	/* Products section */
 	#productSection .owl-nav {
 		text-align: right;
 	}
 	.contactSection {
-		padding: 90px 60px;
+		padding: 60px;
 	}
 	#products, #blog{
 		padding-top: 100px;
@@ -107,7 +107,7 @@
 		height: 200px;
 	}
 	#about{
-		margin-top: 65px;
+		margin-top: 50px;
 	}
 	#products, #blog{
 		padding-top: 70px;

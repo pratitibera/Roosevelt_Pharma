@@ -114,7 +114,7 @@ ul {
 	font-weight: 800;
 }
 
-.bco {
+.bco, .active {
 	color: #ec6521!important;
 }
 
@@ -282,8 +282,15 @@ nav {
 
 
 /* About */
+#about li{
+	padding: 6px 0px;
+	border-bottom: 1px solid #cfcccc;
+	cursor: pointer;
+}
 
-
+#about .col-md-9 .fo-30{
+	border-bottom: 1px solid #cfcccc;
+}
 /* Testimonials */
 
 .testimonialsImage {

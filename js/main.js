@@ -94,6 +94,17 @@ $(".navbar-nav > li").click(function () {
     }
 });
 
+$(".about_topics > li").click(function () {
+    $(".about_topics > li").removeClass('active');
+    $(this).addClass('active');
+    $(".collapse").collapse('hide');
+    $(".about_topic_section").addClass('d-none');
+    $(".about_topic_section").removeClass('d-block');
+    var id = (this.id).split('_')[1];
+    $("#about_" + id).addClass('d-block');
+});
+
+
 function prevBlog(){
     v = parseInt($("#blogSlider input[name='blogSlider']:checked").val()) - 1;
     if(v < 1){
