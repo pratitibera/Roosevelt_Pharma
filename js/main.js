@@ -35,7 +35,8 @@ $(document).ready(function () {
         autoplayHoverPause: true,
         dots: false,
         nav: true,
-        navText: [$('.owl-navigation .owl-nav-prev'), $('.owl-navigation .owl-nav-next')],
+        rtl: true,
+        navText: [$('.owl-navigation .owl-nav-next'), $('.owl-navigation .owl-nav-prev')],
         responsive: {
             0: {
                 items: 1
@@ -59,7 +60,8 @@ $(document).ready(function () {
         autoplayHoverPause: true,
         dots: false,
         nav: true,
-        navText: [$('.owl-navigation-products .owl-nav-prev'), $('.owl-navigation-products .owl-nav-next')],
+        rtl: true,
+        navText: [$('.owl-navigation-products .owl-nav-next'), $('.owl-navigation-products .owl-nav-prev')],
         responsive: {
             0: {
                 items: 1
