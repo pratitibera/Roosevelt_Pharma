@@ -117,11 +117,22 @@
 	}
 	#contact{
 		padding: 0;
+		padding-top: 70px;
 	}
 	#contact .bg-dark{
 		padding: 25px 20px;
 	}
+	.contactContainer {
+	    padding-top: 40px;
+	}
 	.mvh-100{
 		height: 100vh!important;
+	}
+	.mvh-30{
+		height: 30vh!important;
+	}
+	.product_feature .col-sm-4, .product_feature .col-sm-8{
+		padding-left: 0;
+		padding-right: 0;
 	}
 }
