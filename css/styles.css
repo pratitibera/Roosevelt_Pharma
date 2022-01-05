@@ -114,7 +114,7 @@ ul {
 	font-weight: 800;
 }
 
-.bco, .active {
+.bco, nav .active {
 	color: #ec6521!important;
 }
 
@@ -282,13 +282,13 @@ nav {
 
 
 /* About */
-#about li{
+#about li, #products li{
 	padding: 6px 0px;
 	border-bottom: 1px solid #cfcccc;
 	cursor: pointer;
 }
 
-#about .col-md-9 .fo-30{
+#about .col-md-9 .fo-30 , #products .col-md-9 .fo-30{
 	border-bottom: 1px solid #cfcccc;
 }
 /* Testimonials */
@@ -318,7 +318,30 @@ nav {
 	font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-
+.product_feature{
+	border-top: 1px solid #ec6521;
+}
+.product_feature .bg-white{
+	padding: 8px 20px;
+}
+.fullscreenCover{
+	background-color: #f77c3e;
+}
+.fullscreenCover .firstSection{
+	padding: 0px 70px;
+}
+.fullscreenCover .firstSection button{
+	padding: 12px 20px;
+	background-color: transparent;
+	border: 1px solid white;
+	border-radius: 40px;
+	color: #fff;
+	font-weight: 600;
+}
+.fullscreenCover img{
+	-webkit-mask: linear-gradient(rgb(0, 0, 0) 30%, rgba(0, 0, 0, 0));
+	height: 100%;
+}
 /* Blogs */
 
 [type=radio] {
